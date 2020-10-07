@@ -1,0 +1,60 @@
+﻿body {
+background-image: url('pic/bg.jpg'); /* ไฟล์ภาพพื้นหลัง */
+background-color: #d00000; /* สีที่ขอบล่างสุดของภาพพื้นหลัง เลือกสีให้กลมกลืนที่สุด */
+background-position: top center; /*กำหนดตำแหน่งพื้นหลังให้เริ่มต้นที่ด้านบน กึ่งกลาง */
+background-repeat: repeat-x; /*กำหนดให้วางพื้นหลังซ้ำเฉพาะแนวนอน เผื่อหน้าจอบางคนกว้างกว่าเพจ */
+/* background-attachment: fixed; เวลาเลื่อนเพจลงล่างแล้วพื้นหลังจะไม่เลื่อนตาม */
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+} 
+h1{font-size:20px;}
+a:visited{color:#000000;text-decoration:none;}
+a:link{color:#000000;text-decoration:none;}
+a:hover, a:active {
+    color:red;
+    text-decoration:underline;
+  }
+a img {border: 0px solid #000000; }
+  
+.input{background:#EEEEEE;border:1px solid #828177;}
+.input:hover{background:#EEEEEE;border:1px solid #aaaaaa;}
+.button{border:1px solid #000000;background:#666666;width:80px;height:30px;
+color:#ffffff;font-size:15px;cursor:pointer;
+}
+.button:hover{border:1px solid #777777;background:#999999;width:80px;height:30px;color:#ffffff;font-size:15px;}
+
+/*------------------------- header ------------------------------------*/
+.headers{position:relative;height:24px;font-size:13px;background:#333333;color:#ffffff; text-align:center;}
+.txt_salels{position:absolute;top:2px;left:10;font-size:14px;color:#ffffff;}
+.txt_link{position:relative;top:2px;}
+.header2_centers{/*background-image:url(pic/loan-student-header.gif);*/}
+.header2s{position:relative;height:300px; width:969px}
+.branners{border:0px solid #000000;position:absolute;left:0px;height:60px;color:#ffffff;font-size:20px;}
+.branner_imgs{position:relative;left:0px;background-image:url(pic/loan-moviestom-logo.jpg);width:969px;height:300px;}
+.nevigators{position:relative;height:33px;background-image:url(pic/bg-navi.jpg);color:#000000;font-size:13px;}
+.nevigator_txts{position:absolute;top:10px;left:15;font-size:13px;color:#000000;width:950px;}
+
+.link_left{background:#333333; color:#ffffff;}
+.t_left{background-image:url(pic/t-left.jpg);font-size:13px;color:#000000;}
+
+
+.mains{
+border:0px solid #844718;position:relative;margin-top:0px;width:970px; 
+background:white;text-align:left;font-size:13px;font-family: Tahoma, Arial, Verdana, sans-serif; 
+}
+
+.footers{position:relative;background:#333333;}
+
+.footer_txts{color:#ffffff;text-align:center;font-size:13px;}
+
+
+
+
+
+
+
+
+
+
